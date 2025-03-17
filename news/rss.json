@@ -1,0 +1,431 @@
+[  {
+    "source": "Bloomberg",
+    "rss_feeds": {
+      "1": "https://feeds.bloomberg.com/markets/news.rss",
+      "2": "https://feeds.bloomberg.com/politics/news.rss",
+      "3": "https://feeds.bloomberg.com/business/news.rss",
+      "4": "https://feeds.bloomberg.com/economics/news.rss",
+      "5": "https://feeds.bloomberg.com/industries/news.rss",
+      "6": "https://feeds.bloomberg.com/technology/news.rss"
+    }
+  },
+  {
+    "source": "CNBC",
+    "rss_feeds": {
+      "1": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100727362",
+      "2": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114",
+      "3": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15837362",
+      "4": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19832390",
+      "5": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19794221",
+      "6": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147",
+      "7": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",
+      "8": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+      "9": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
+      "10": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000113"
+    }
+  },
+  {
+    "source": "CNN",
+    "rss_feeds": {
+      "1": "http://rss.cnn.com/rss/money_news_economy.rss",
+      "2": "http://rss.cnn.com/rss/money_markets.rss",
+      "3": "http://rss.cnn.com/rss/money_news_companies.rss",
+      "4": "http://rss.cnn.com/rss/money_news_international.rss"
+    }
+  },
+  {
+    "source": "US News",
+    "rss_feeds": {
+      "1": "https://www.usnews.com/rss/money",
+      "2": "https://www.usnews.com/rss/news"
+    }
+  },
+  {
+    "source": "MarketWatch",
+    "rss_feeds": {
+      "1": "https://feeds.content.dowjones.io/public/rss/mw_topstories"
+    }
+  },
+  {
+    "source": "Financial Times",
+    "rss_feeds": {
+      "1": "https://www.ft.com/myft/following/835db840-0204-434c-8f7a-1789f1de2cf6.rss"
+    }
+  },
+  {
+    "source": "USGS",
+    "rss_feeds": {
+      "1": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.atom"
+    }
+  },
+  {
+    "source": "NOAA National Hurricane Center",
+    "rss_feeds": {
+      "1": "https://www.nhc.noaa.gov/index-at.xml"
+    }
+  },
+  {
+    "source": "Google News",
+    "rss_feeds": {
+      "1": "https://rss.app/feeds/BHdLDNWDUaCHx9eC.xml",
+      "2": "https://rss.app/feeds/enqxodtaSXHUEmRW.xml",
+      "3": "https://rss.app/feeds/FdLGII6ZMW9YoHiP.xml",
+      "4": "https://rss.app/feeds/53jiYMtsUhLTC7jD.xml",
+      "5": "https://rss.app/feeds/1c471f0yuh4Sa4Sp.xml"
+    }
+  },
+  {
+    "source": "BBC",
+    "rss_feeds": {
+      "1": "https://feeds.bbci.co.uk/news/politics/rss.xml",
+      "2": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+      "3": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "4": "https://feeds.bbci.co.uk/news/business/rss.xml"
+    }
+  },
+  {
+    "source": "OilPrice",
+    "rss_feeds": {
+      "1": "https://oilprice.com/rss/main"
+    }
+  },{
+    "source": "RigZone",
+    "rss_feeds": {
+      "1": "https://www.rigzone.com/news/rss/rigzone_latest.aspx"
+    }
+  },
+  {
+    "source": "Oil & Gas Journal",
+    "rss_feeds": {
+      "1": "https://www.ogj.com/__rss/website-scheduled-content.xml?input=%7B%22sectionAlias%22%3A%22general-interest%22%7D"
+    }
+  },
+  {
+    "source": "Krebs on Security",
+    "rss_feeds": {
+      "1": "https://krebsonsecurity.com/feed/"
+    }
+  },
+  {
+    "source": "The Hacker News",
+    "rss_feeds": {
+      "1": "https://news.ycombinator.com/rss",
+      "2": "https://feeds.feedburner.com/TheHackersNews"
+    }
+  },
+  {
+    "source": "BleepingComputer",
+    "rss_feeds": {
+      "1": "https://www.bleepingcomputer.com/feed/"
+    }
+  },
+  {
+    "source": "United Nations",
+    "rss_feeds": {
+      "1": "https://news.un.org/feed/subscribe/en/news/topic/economic-development/feed/rss.xml",
+      "2": "https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml",
+      "3": "https://news.un.org/feed/subscribe/en/news/topic/law-and-crime-prevention/feed/rss.xml",
+      "4": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+    }
+  },
+  {
+    "source": "BRICS",
+    "rss_feeds": {
+      "1": "https://infobrics.org/rss/en/"
+    }
+  },
+  {
+    "source": "BIS",
+    "rss_feeds": {
+      "1": "https://www.bis.org/doclist/all_pressrels.rss"
+    }
+  },
+  {
+    "source": "SEC",
+    "rss_feeds": {
+      "1": "https://www.sec.gov/rss/news/press.xml"
+    }
+  },
+  {
+    "source": "CFTC",
+    "rss_feeds": {
+      "1": "https://www.cftc.gov/RSS/RSSGP/rssgp.xml"
+    }
+  },
+  {
+    "source": "European Commission",
+    "rss_feeds": {
+      "1": "https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL",
+      "2": "https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL",
+      "3": "https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL",
+      "4": "https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ENVENE&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL"
+    }
+  },
+  {
+    "source": "Al Jazeera",
+    "rss_feeds": {
+      "1": "https://www.aljazeera.com/xml/rss/all.xml"
+    }
+  },
+  {
+    "source": "European Union",
+    "rss_feeds": {
+      "1": "https://www.europarl.europa.eu/rss/doc/press-releases/en.xml",
+      "2": "https://www.europarl.europa.eu/rss/doc/newsletters/en.xml",
+      "3": "https://www.europarl.europa.eu/rss/doc/agendas-news/en.xml"
+    }
+  },
+  {
+    "source": "CoinDesk",
+    "rss_feeds": {
+      "1": "https://www.coindesk.com/arc/outboundfeeds/rss"
+    }
+  },
+  {
+    "source": "CoinTelegraph",
+    "rss_feeds": {
+      "1": "https://cointelegraph.com/rss"
+    }
+  },
+  {
+    "source": "Decrypt",
+    "rss_feeds": {
+      "1": "https://decrypt.co/feed"
+    }
+  },
+  {
+    "source": "Federal Reserve",
+    "rss_feeds": {
+      "1": "https://www.federalreserve.gov/feeds/press_all.xml"
+    }
+  },
+  {
+    "source": "European Central Bank",
+    "rss_feeds": {
+      "1": "https://www.ecb.europa.eu/rss/press.html"
+    }
+  },
+  {
+    "source": "IMF",
+    "rss_feeds": {
+      "1": "https://www.imf.org/en/rss-list/feed?category=WHATSNEW"
+    }
+  },
+  {
+    "source": "Yahoo Finance",
+    "rss_feeds": {
+      "1": "https://finance.yahoo.com/news/rssindex"
+    }
+  },
+  {
+    "source": "War on the Rocks",
+    "rss_feeds": {
+      "1": "https://warontherocks.com/feed/"
+    }
+  },
+  {
+    "source": "Defence Blog",
+    "rss_feeds": {
+      "1": "https://defence-blog.com/feed/"
+    }
+  },
+  {
+    "source": "IFP News",
+    "rss_feeds": {
+      "1": "https://ifpnews.com/feed/"
+    }
+  },
+  {
+    "source": "247 News Around The World",
+    "rss_feeds": {
+      "1": "https://247newsaroundtheworld.com/feed/"
+    }
+  },
+  {
+    "source": "CBS News",
+    "rss_feeds": {
+      "1": "https://www.cbsnews.com/latest/rss/world"
+    }
+  },
+  {
+    "source": "CBC",
+    "rss_feeds": {
+      "1": "http://www.cbc.ca/cmlink/rss-world"
+    }
+  },
+  {
+    "source": "France 24",
+    "rss_feeds": {
+      "1": "https://www.france24.com/en/rss"
+    }
+  },
+  {
+    "source": "BuzzFeed",
+    "rss_feeds": {
+      "1": "https://www.buzzfeed.com/world.xml"
+    }
+  },
+  {
+    "source": "The New York Times",
+    "rss_feeds": {
+      "1": "https://www.nytimes.com/svc/collections/v1/publish/https://www.nytimes.com/section/world/rss.xml"
+    }
+  },
+  {
+    "source": "Washington Post",
+    "rss_feeds": {
+      "1": "https://feeds.washingtonpost.com/rss/world"
+    }
+  },
+  {
+    "source": "Global News",
+    "rss_feeds": {
+      "1": "https://globalnews.ca/world/feed/"
+    }
+  },
+  {
+    "source": "TIME",
+    "rss_feeds": {
+      "1": "http://feeds.feedburner.com/time/world"
+    }
+  },
+  {
+    "source": "NPR: National Public Radio",
+    "rss_feeds": {
+      "1": "http://www.npr.org/rss/rss.php?id=1004"
+    }
+  },
+  {
+    "source": "Yahoo News",
+    "rss_feeds": {
+      "1": "https://www.yahoo.com/news/rss/world/"
+    }
+  },
+  {
+    "source": "The Washington Times",
+    "rss_feeds": {
+      "1": "http://www.washingtontimes.com/rss/headlines/news/world"
+    }
+  },
+  {
+    "source": "The Sydney Morning Herald",
+    "rss_feeds": {
+      "1": "http://www.smh.com.au/rssheadlines/world/article/rss.xml"
+    }
+  },
+  {
+    "source": "Sky News",
+    "rss_feeds": {
+      "1": "http://feeds.skynews.com/feeds/rss/world.xml"
+    }
+  },
+  {
+    "source": "Los Angeles Times",
+    "rss_feeds": {
+      "1": "https://www.latimes.com/world/rss2.0.xml"
+    }
+  },
+  {
+    "source": "The Seattle Times",
+    "rss_feeds": {
+      "1": "https://www.seattletimes.com/nation-world/world/feed/"
+    }
+  },
+  {
+    "source": "Times of India",
+    "rss_feeds": {
+      "1": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms"
+    }
+  },
+  {
+    "source": "RT",
+    "rss_feeds": {
+      "1": "https://www.rt.com/rss/news/"
+    }
+  },
+  {
+    "source": "NDTV",
+    "rss_feeds": {
+      "1": "https://feeds.feedburner.com/ndtvnews-world-news"
+    }
+  },
+  {
+    "source": "E-International Relations",
+    "rss_feeds": {
+      "1": "https://www.e-ir.info/feed/"
+    }
+  },
+  {
+    "source": "The Sun",
+    "rss_feeds": {
+      "1": "https://www.thesun.co.uk/news/worldnews/feed/"
+    }
+  },
+  {
+    "source": "Global Issues",
+    "rss_feeds": {
+      "1": "https://www.globalissues.org/news/feed"
+    }
+  },
+  {
+    "source": "Daily Mirror",
+    "rss_feeds": {
+      "1": "http://www.mirror.co.uk/news/world-news/rss.xml"
+    }
+  },
+  {
+    "source": "The Cipher Brief",
+    "rss_feeds": {
+      "1": "https://www.thecipherbrief.com/feed"
+    }
+  },
+  {
+    "source": "Daily Express",
+    "rss_feeds": {
+      "1": "http://feeds.feedburner.com/daily-express-world-news"
+    }
+  },
+  {
+    "source": "Vox",
+    "rss_feeds": {
+      "1": "https://www.vox.com/rss/world-politics/index.xml"
+    }
+  },
+  {
+    "source": "CTV News",
+    "rss_feeds": {
+      "1": "https://www.ctvnews.ca/rss/world/ctvnews-ca-world-public-rss-1.822289"
+    }
+  },
+  {
+    "source": "Channel NewsAsia",
+    "rss_feeds": {
+      "1": "http://www.channelnewsasia.com/rssfeeds/8395884"
+    }
+  },
+  {
+    "source": "News24",
+    "rss_feeds": {
+      "1": "http://feeds.news24.com/articles/news24/World/rss"
+    }
+  },
+  {
+    "source": "Raw Story",
+    "rss_feeds": {
+      "1": "https://www.rawstory.com/category/world/feed/"
+    }
+  },
+  {
+    "source": "ABC News",
+    "rss_feeds": {
+      "1": "http://abcnews.go.com/abcnews/internationalheadlines"
+    }
+  },
+  {
+    "source": "Fox News",
+    "rss_feeds": {
+      "1": "http://feeds.foxnews.com/foxnews/latest"
+    }
+  }
+]
+
