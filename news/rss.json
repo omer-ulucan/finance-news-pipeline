@@ -1,4 +1,5 @@
-[  {
+[
+  {
     "source": "Bloomberg",
     "rss_feeds": {
       "1": "https://feeds.bloomberg.com/markets/news.rss",
@@ -88,7 +89,8 @@
     "rss_feeds": {
       "1": "https://oilprice.com/rss/main"
     }
-  },{
+  },
+  {
     "source": "RigZone",
     "rss_feeds": {
       "1": "https://www.rigzone.com/news/rss/rigzone_latest.aspx"
@@ -428,4 +430,3 @@
     }
   }
 ]
-

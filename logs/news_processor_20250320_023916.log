@@ -1,0 +1,86 @@
+2025-03-20 02:39:22,141 - INFO - Note: NumExpr detected 24 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-03-20 02:39:22,142 - INFO - NumExpr defaulting to 16 threads.
+2025-03-20 02:39:25,500 - INFO - Device set to use cuda:0
+2025-03-20 02:39:26,664 - INFO - === RSS NEWS TRACKING SYSTEM STARTING ===
+2025-03-20 02:39:26,667 - INFO - Collecting news from RSS sources...
+2025-03-20 02:39:27,222 - ERROR - Error fetching https://rss.cnn.com/rss/money_news_economy.rss: Cannot connect to host rss.cnn.com:443 ssl:default [None]
+2025-03-20 02:39:27,354 - WARNING - Retrying https://www.ctvnews.ca/rss/world/ctvnews-ca-world-public-rss-1.822289 after 404 error (attempt 1)
+2025-03-20 02:39:29,667 - ERROR - Error fetching https://www.ctvnews.ca/rss/world/ctvnews-ca-world-public-rss-1.822289: HTTP status 404
+2025-03-20 02:39:30,334 - ERROR - Error fetching https://rss.cnn.com/rss/money_markets.rss: Cannot connect to host rss.cnn.com:443 ssl:default [None]
+2025-03-20 02:39:32,734 - WARNING - Retrying https://www.sec.gov/rss/news/press.xml after 403 error (attempt 1)
+2025-03-20 02:39:33,107 - ERROR - Error fetching https://rss.cnn.com/rss/money_news_companies.rss: Cannot connect to host rss.cnn.com:443 ssl:default [None]
+2025-03-20 02:39:33,209 - ERROR - Error fetching https://rss.cnn.com/rss/money_news_international.rss: Cannot connect to host rss.cnn.com:443 ssl:default [None]
+2025-03-20 02:39:33,954 - ERROR - Error fetching https://www.sec.gov/rss/news/press.xml: HTTP status 403
+2025-03-20 02:39:34,906 - WARNING - Retrying https://www.usnews.com/rss/money after timeout (attempt 1)
+2025-03-20 02:39:34,907 - WARNING - Retrying https://feeds.washingtonpost.com/rss/world after timeout (attempt 1)
+2025-03-20 02:39:34,910 - WARNING - Retrying https://www.imf.org/en/rss-list/feed?category=WHATSNEW after timeout (attempt 1)
+2025-03-20 02:39:34,915 - WARNING - Retrying https://www.usnews.com/rss/news after timeout (attempt 1)
+2025-03-20 02:39:44,891 - ERROR - Timeout fetching https://feeds.washingtonpost.com/rss/world
+2025-03-20 02:39:44,894 - ERROR - Timeout fetching https://www.imf.org/en/rss-list/feed?category=WHATSNEW
+2025-03-20 02:39:44,897 - ERROR - Timeout fetching https://www.usnews.com/rss/news
+2025-03-20 02:39:44,900 - ERROR - Timeout fetching https://www.usnews.com/rss/money
+2025-03-20 02:39:45,015 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,017 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,019 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,020 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,022 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,024 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,026 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,027 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,028 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,030 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,031 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,033 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,034 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,035 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,035 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,036 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,037 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,037 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,038 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,039 - WARNING - No date for entry from News24, using current time
+2025-03-20 02:39:45,041 - INFO - 95 news collected within the last hour!
+2025-03-20 02:39:45,057 - INFO - Collected 95 news items (18.39 seconds)
+2025-03-20 02:39:45,058 - INFO - Filtering news and removing duplicates...
+2025-03-20 02:39:45,059 - INFO - Starting duplicate removal for 95 news items...
+2025-03-20 02:39:46,985 - INFO - Removed 37 duplicates in 1.93 seconds
+2025-03-20 02:39:46,986 - INFO - Remaining unique news: 58
+2025-03-20 02:39:46,986 - INFO - 58 unique news items remaining from 95 (1.93 seconds)
+2025-03-20 02:39:46,987 - INFO - Adding location information to news items...
+2025-03-20 02:39:47,153 - INFO - Added locations to 50/58 news items in 0.17 seconds
+2025-03-20 02:39:47,153 - INFO - Location info: Added to 50/58 news items (86.2%, 0.17 seconds)
+2025-03-20 02:39:47,155 - INFO - Processed news saved to: results/processed_news_20250320_023947.json
+2025-03-20 02:39:47,155 - INFO - 
+PERFORMANCE REPORT:
+2025-03-20 02:39:47,155 - INFO -   - RSS Collection:    18.39s (89.8%)
+2025-03-20 02:39:47,155 - INFO -   - Filtering:         1.93s (9.4%)
+2025-03-20 02:39:47,156 - INFO -   - Location Addition: 0.17s (0.8%)
+2025-03-20 02:39:47,156 - INFO -   - Total Time:        20.49s
+2025-03-20 02:39:47,163 - INFO - 
+SAMPLE PROCESSED NEWS:
+2025-03-20 02:39:47,164 - INFO -   1. Bloomberg: Traders Place Big Bets on More BOE Rate Cuts Than ...
+2025-03-20 02:39:47,164 - INFO -      Link: https://www.bloomberg.com/news/articles/2025-03-20/traders-place-big-bets-on-more-boe-rate-cuts-than-market-expects
+2025-03-20 02:39:47,164 - INFO -      Location: None
+2025-03-20 02:39:47,164 - INFO -      Published: 2025-03-20T07:00:00+00:00
+2025-03-20 02:39:47,165 - INFO - 
+2025-03-20 02:39:47,165 - INFO -   2. Bloomberg: Insight with Haslinda Amin 3/20/2025...
+2025-03-20 02:39:47,165 - INFO -      Link: https://www.bloomberg.com/news/videos/2025-03-20/insight-with-haslinda-amin-3-20-2025-video
+2025-03-20 02:39:47,165 - INFO -      Location: None
+2025-03-20 02:39:47,165 - INFO -      Published: 2025-03-20T06:55:30+00:00
+2025-03-20 02:39:47,165 - INFO - 
+2025-03-20 02:39:47,165 - INFO -   3. Bloomberg: Top Thai Mall Builder Plans $3.6 Billion Five-Year...
+2025-03-20 02:39:47,166 - INFO -      Link: https://www.bloomberg.com/news/articles/2025-03-20/top-thai-mall-builder-plans-3-6-billion-five-year-expansion
+2025-03-20 02:39:47,166 - INFO -      Location: Thailand
+2025-03-20 02:39:47,166 - INFO -      Published: 2025-03-20T06:50:11+00:00
+2025-03-20 02:39:47,166 - INFO - 
+2025-03-20 02:39:47,166 - INFO -   4. Bloomberg: FTSE 100 Live: UK Wage Growth Slowed in January in...
+2025-03-20 02:39:47,166 - INFO -      Link: https://www.bloomberg.com/news/live-blog/2025-03-20/ftse-100-live-boe-interest-rate-pound-jobs-wages-unemployment-what-s-moving-uk-markets-right-now-markets-today
+2025-03-20 02:39:47,166 - INFO -      Location: January
+2025-03-20 02:39:47,167 - INFO -      Published: 2025-03-20T06:46:02+00:00
+2025-03-20 02:39:47,167 - INFO - 
+2025-03-20 02:39:47,167 - INFO -   5. Bloomberg: UK Looks to Business for Diplomatic Recruits in Tr...
+2025-03-20 02:39:47,167 - INFO -      Link: https://www.bloomberg.com/news/articles/2025-03-20/uk-looks-to-business-for-diplomatic-recruits-in-trade-push
+2025-03-20 02:39:47,167 - INFO -      Location: UK
+2025-03-20 02:39:47,167 - INFO -      Published: 2025-03-20T07:00:00+00:00
+2025-03-20 02:39:47,167 - INFO - 
+2025-03-20 02:39:47,178 - INFO - === PROCESS COMPLETED ===

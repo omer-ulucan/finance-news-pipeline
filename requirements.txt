@@ -2,4 +2,11 @@ numpy
 scikit-learn
 transformers
 feedparser
-geopy
+asyncio
+aiohttp
+datetime
+torch
+spacy
+newspaper3k
+tqdm
+lxml[html_clean]
