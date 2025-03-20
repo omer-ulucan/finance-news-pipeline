@@ -4,6 +4,12 @@ import json
 import feedparser
 from datetime import datetime, timedelta, timezone
 from concurrent.futures import ThreadPoolExecutor
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 TIME_WINDOW = timedelta(hours=1)
 now = datetime.now(timezone.utc)
@@ -26,14 +32,14 @@ async def fetch_feed(session, source_name, feed_url):
     }
     
     try:
-        async with session.get(feed_url, headers=headers, timeout=10) as response:
+        async with session.get(feed_url, headers=headers, timeout=5) as response:
             if response.status != 200:
-                print(f" Error fetching {feed_url}: HTTP status {response.status}")
+                logging.error(f"Error fetching {feed_url}: HTTP status {response.status}")
                 return source_name, None
             content = await response.text()
             return source_name, feedparser.parse(content)
     except Exception as e:
-        print(f" Error fetching {feed_url}: {e}")
+        logging.error(f"Error fetching {feed_url}: {e}")
         return source_name, None
 
 def filter_recent_news(source_name, feed_data):
@@ -56,7 +62,7 @@ def filter_recent_news(source_name, feed_data):
                         "location": None
                     })
             except Exception as e:
-                print(f"Error parsing date for {source_name}: {e}")
+                logging.error(f"Error parsing date for {source_name}: {e}")
     return recent_news
 
 async def process_rss_feeds():
@@ -73,7 +79,8 @@ async def process_rss_feeds():
             filtered_news = list(executor.map(lambda x: filter_recent_news(x[0], x[1]), responses))
             
         news_list = [news for group in filtered_news for news in group]
+        logging.info(f"{len(news_list)} news collected!")
+
 
 if __name__ == "__main__":
     asyncio.run(process_rss_feeds())
-    print(f" {len(news_list)} news collected!")
